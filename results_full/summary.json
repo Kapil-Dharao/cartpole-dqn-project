@@ -1,0 +1,60 @@
+{
+  "environment": "bundled CartPole-v1 physics",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "steps_per_seed": 100000,
+  "evaluation_episodes": 20,
+  "random_baseline_mean": 27.5,
+  "heuristic_baseline_mean": 46.45,
+  "final_by_seed": [
+    {
+      "seed": 11,
+      "step": 100000,
+      "mean": 101.15,
+      "std": 17.89,
+      "success_rate": 0.0
+    },
+    {
+      "seed": 22,
+      "step": 100000,
+      "mean": 173.1,
+      "std": 77.78,
+      "success_rate": 0.0
+    },
+    {
+      "seed": 33,
+      "step": 100000,
+      "mean": 97.35,
+      "std": 2.39,
+      "success_rate": 0.0
+    },
+    {
+      "seed": 44,
+      "step": 100000,
+      "mean": 94.6,
+      "std": 2.48,
+      "success_rate": 0.0
+    },
+    {
+      "seed": 55,
+      "step": 100000,
+      "mean": 52.65,
+      "std": 4.0,
+      "success_rate": 0.0
+    }
+  ],
+  "median_dqn_final_mean": 97.35,
+  "elapsed_seconds_by_seed": {
+    "11": 6.76,
+    "22": 6.72,
+    "33": 6.76,
+    "44": 6.57,
+    "55": 6.77
+  },
+  "success_criterion_met": false
+}

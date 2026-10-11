@@ -1,0 +1,6 @@
+{
+  "checkpoint_seed": 22,
+  "episode_seed": 10000,
+  "episode_return": 140.0,
+  "frames": 71
+}
